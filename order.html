@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<body style="background-image:url(background.jpeg); background-repeat=no-repeat; background-size:cover">
+<h2 style="font-family:lucida console;color:darkcyan;font-size:30px;;">PLACE YOUR ORDERS NOW:</h2>
+<form action="buy.php" method="post">
+  <label for="name">Enter your name:</label><br>
+  <input type="text" id="name" name="name" ><br>
+  <label for="city">City:</label><br>
+  <input type="radio" id="city" name="city">Chennai<br>
+  <input type="radio" id="city" name="city">Vellore<br>
+  <input type="radio" id="city" name="city">Coimbatore<br>
+  <input type="radio" id="city" name="city">Kovai<br>
+  Others:<br><input type="text" id="city" name="city"><br>
+  <h2 style="font-family:lucida console;color:darkblue; font-size:25px;">PRODUCTS</h2>
+  <p style="font-family:lucida console;color:orange; font-size:20px;">SKIN:</p>
+  <label for="skin">Choose a flavour of Face Wash:</label>
+  
+  <select id="skin" name="skin1">
+    <option value="FaceWash-Turmeric">Turmeric</option>
+    <option value="FaceWash-Tea Tree">Tea Tree</option>
+    <option value="FaceWash-Charcoal">Charcoal</option>
+  </select><br><br>
+  
+  <label for="quantity">Quantity:</label>
+  <input type="number" id="quantity" name="quantity1" min="1"><br><br>
+  
+  <label for="body">Choose a flavour of Body Cream:</label>
+  <select id="body" name="skin2">
+    <option value="Body Cream-Body Butter">Body Butter</option>
+    <option value="Body Cream-Body Mask">Body Mask</option>
+  </select><br><br>
+  <label for="quantity">Quantity:</label>
+  <input type="number" id="quantity" name="quantity2" min="1"><br>
+
+  
+  
+<p style="font-family:lucida console;color:orange; font-size:20px;">HAIR:</p>
+  <label for="skin3">Choose a product:</label>
+  <select id="skin3" name="hair">
+    <option value="hairshampoo-Onion">Onion</option>
+    <option value="hairoil-Bhring Amla">Bhring Amla</option>
+    <option value="Hairserum- Almond">Almond</option> 
+ </select><br><br>
+<label for="quantity">Quantity:</label>
+  <input type="number" id="quantity" name="quantity3" min="1"><br><br>
+ <input type="submit" name="submit">
+</form>
+</body>
+</html>
+

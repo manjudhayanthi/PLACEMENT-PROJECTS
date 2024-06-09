@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+fieldset {
+  background-color: #708090;
+}
+
+legend {
+  background-color: #BC8F8F;
+  color: white;
+  padding: 5px 5px;
+}
+
+input {
+  margin: 10px;
+}
+</style>
+</head>
+<body>
+
+<h3 style="background-color:hsl(30, 500%, 50%); font-family:lucida console;font-size:70px;text-align:center;"><b>CONTACT DETAILS</b></h1>
+<h2 style="background-color:purple;">
+<form action="contact.php"  method="POST">
+<fieldset>
+<legend>Contact Us:</legend>
+<form action="contact.php" method="post">
+  <lable for="n1">Enter your name:</lable>
+  <input type="text" id="n1" name="name" required><br><br>
+  <label for="mail1">Enter your email:</label>
+  <input type="email" id="mail1" name="email" required><br><br>
+  <label for="subject">Subject:</label>
+  <input type="text" id="subject" name="subject"><br><br>
+  Your message:<br><br>
+  <textarea name="message"  rows="10" cols="30"> </textarea>
+  <br><br>
+  <input type="submit" name="submit">
+</form>
+</fieldset>
+</body>
+</html>
+
